@@ -30,8 +30,8 @@ extern "C" {
 
 #define NN_PROTO_PIPELINE 5
 
-#define NN_PUSH (NN_PROTO_PIPELINE * 16 + 0)
-#define NN_PULL (NN_PROTO_PIPELINE * 16 + 1)
+#define NN_PUSH 0x50
+#define NN_PULL 0x51
 
 #ifdef __cplusplus
 }

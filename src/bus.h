@@ -29,7 +29,7 @@ extern "C" {
 
 #define NN_PROTO_BUS 7
 
-#define NN_BUS (NN_PROTO_BUS * 16 + 0)
+#define NN_BUS 0x70
 
 #ifdef __cplusplus
 }

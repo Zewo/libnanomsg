@@ -32,8 +32,8 @@ extern "C" {
 
 #define NN_PROTO_REQREP 3
 
-#define NN_REQ (NN_PROTO_REQREP * 16 + 0)
-#define NN_REP (NN_PROTO_REQREP * 16 + 1)
+#define NN_REQ 0x30
+#define NN_REP 0x31
 
 #define NN_REQ_RESEND_IVL 1
 

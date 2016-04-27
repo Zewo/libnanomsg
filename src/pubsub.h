@@ -29,8 +29,8 @@ extern "C" {
 
 #define NN_PROTO_PUBSUB 2
 
-#define NN_PUB (NN_PROTO_PUBSUB * 16 + 0)
-#define NN_SUB (NN_PROTO_PUBSUB * 16 + 1)
+#define NN_PUB 0x20
+#define NN_SUB 0x21
 
 #define NN_SUB_SUBSCRIBE 1
 #define NN_SUB_UNSUBSCRIBE 2

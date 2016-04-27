@@ -29,7 +29,7 @@ extern "C" {
 
 #define NN_PROTO_PAIR 1
 
-#define NN_PAIR (NN_PROTO_PAIR * 16 + 0)
+#define NN_PAIR 0x10
 
 #ifdef __cplusplus
 }
